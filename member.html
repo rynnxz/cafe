@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigga Cafe - Member</title>
+
+    <link rel="stylesheet" href="resource/css/style.css">
+</head>
+<body>
+    <header class="header" id="navbar">
+        <a href="#">
+            <div class="logo-container">
+                <img src="resource/img/logos.png" alt="logo" class="logo">
+            </div>
+        </a>
+        
+        <form action="signup.html">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#barang">Barang</a>
+                <!-- <a href="#">Member</a>
+                <a href="#">Transaksi</a> -->
+                <a href="wishlist.html">Wishlist</a>
+                    <button type="submit">Sign Up</button>
+            </nav>
+        </form>
+
+    </header>
+
+    <section class="member">
+        <h2 class="title">Member</h2>
+        <form action="#">
+            <div class="input-member">
+                <h2>Nama Member</h2>
+                <input type="text">
+            </div>
+
+            <div class="input-password">
+                <h2>Password</h2>
+                <input type="password">
+            </div>
+
+            <div class="input-level">
+                <h2>Level</h2>
+                <select name="level" id="level">
+                    <option value="Admin">Admin</option>
+                    <option value="Member">Member</option>
+                </select>
+                
+            </div>
+
+            <div class="button-member">
+                <button type="submit">Simpan</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+
+        <div class="detail-member">
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama Member</th>
+                    <th>Password</th>
+                    <th>Level</th>
+                    <th>Action</th>
+                </tr>
+    
+                <tr>
+                    <td>1</td>
+                    <td>Lorem</td>
+                    <td>LoremIpsum12</td>
+                    <td>Admin</td>
+                    <td>
+                        <form action="#">
+                            <button>Edit</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="#">
+                            <button>Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+</body>
+</html>

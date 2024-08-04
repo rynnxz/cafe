@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nigga Cafe - Wishlist</title>
 
-    <link rel="stylesheet" href="resource/style.css">
+    <link rel="stylesheet" href="resource/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -17,21 +17,27 @@
     <header class="header" id="navbar">
         <a href="index.html">
             <div class="logo-container">
-                <img src="resource/logos.png" alt="logo" class="logo">
+                <img src="resource/img/logos.png" alt="logo" class="logo">
             </div>
         </a>
 
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="#barang">Barang</a>
-            <a href="wishlist.html">Wishlist</a>
-            <button>Sign Up</button>
-        </nav>
+        <form action="signup.html">
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="index.html#barang">Barang</a>
+                <!-- <a href="#">Member</a>
+                <a href="#">Transaksi</a> -->
+                <a href="wishlist.html">Wishlist</a>
+                <button type="submit">Sign Up</button>
+            </nav>
+        </form> 
     </header>
 
     <section class="wishlist">
         <h2>Your Wishlist</h2>
-        <div id="wishlist-container" class="rynnxz-container"></div>
+        <div class="containers">
+            <div id="wishlist-container" class="rynnxz-container"></div>
+        </div>
     </section>
 
     <footer class="footer" id="footer">
