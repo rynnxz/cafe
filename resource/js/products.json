@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Cold Expresso",
+        "price": "Rp.20.000",
+        "imgSrc": "resource/kopi-boba.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "2",
+        "name": "Caramel Susu Dingin",
+        "price": "Rp.26.000",
+        "imgSrc": "resource/caramel-susu-dingin.jpeg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "3",
+        "name": "Cold Coffee",
+        "price": "Rp.20.000",
+        "imgSrc": "resource/cold-coffee.png",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "4",
+        "name": "Ice Blend",
+        "price": "Rp.26.000",
+        "imgSrc": "resource/ice-blend.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "5",
+        "name": "Milkshake",
+        "price": "Rp.26.000",
+        "imgSrc": "resource/milkshake.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "6",
+        "name": "Brownies",
+        "price": "Rp.12.000",
+        "imgSrc": "resource/brownies.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "7",
+        "name": "Crossaint",
+        "price": "Rp.15.000",
+        "imgSrc": "resource/crossaint.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "8",
+        "name": "Mango Pudding",
+        "price": "Rp.10.000",
+        "imgSrc": "resource/mango-pudding.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "9",
+        "name": "Crepes",
+        "price": "Rp.15.000",
+        "imgSrc": "resource/crepes.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "10",
+        "name": "Kroket",
+        "price": "Rp.23.000",
+        "imgSrc": "resource/kroket.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    }
+]

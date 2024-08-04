@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigga Cafe - Wishlist</title>
+
+    <link rel="stylesheet" href="resource/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="navbar">
+        <a href="index.html">
+            <div class="logo-container">
+                <img src="resource/logos.png" alt="logo" class="logo">
+            </div>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#barang">Barang</a>
+            <a href="wishlist.html">Wishlist</a>
+            <button>Sign Up</button>
+        </nav>
+    </header>
+
+    <section class="wishlist">
+        <h2>Your Wishlist</h2>
+        <div id="wishlist-container" class="rynnxz-container"></div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="resource/logos.png" alt="Logo" width="100">
+            </div>
+
+            <div class="footer-social">
+                <i class='bx bxl-facebook'></i>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <i class='bx bxl-instagram'></i>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+
+            <div class="footer-products">
+                <h3>Produk</h3>
+                <ul>
+                    <li><a href="#barang">Coffee</a></li>
+                    <li><a href="#barang">Dessert</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <i class='bx bxl-whatsapp'></i>
+                <a href="https://wa.me/" target="">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            // Scroll down
+            navbar.style.top = '-100px';
+        } else {
+            // Scroll up
+            navbar.style.top = '0';
+        }
+        lastScrollTop = scrollTop;
+    });
+    </script>
+
+    <script src="resource/js/wishlist.js"></script>
+</body>
+</html>
